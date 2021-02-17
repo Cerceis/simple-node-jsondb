@@ -31,19 +31,19 @@ Not so simple anymore huh?
 - Table Of Contents
 - API
     - Example Dataset
-- db.init([dbPath])
-- db.insert([collection/table], [data])
+- db.init()
+- db.insert()
     - Insert one
     - Insert many
-- db.find([collection/table], [filter])
+- db.find()
     - Find All
     - Find one
     - Multiple filters
     - Advance Search
-- db.update([collection/table], [filter], [newData])
+- db.update()
     - Update All records
     - Update One
-- db.delete([collection/table], [filter], [confirm])
+- db.delete()
     - Delete one specific record
     - Delete records with conditions
     - Delete All
@@ -186,6 +186,7 @@ Return
 Basic usage
 ## Find All
 
+    /*Omitting async handles*/
 	let result = await db.find( 'users' , {} )
 
 ## Find one
@@ -360,7 +361,7 @@ Return
 ----
 
 #  Special Operators
-Operator  |  Descriptions
+Operators  |  Descriptions
 ------------- | -------------
 $ge | Greater and equals to
 $g  | Greater than
