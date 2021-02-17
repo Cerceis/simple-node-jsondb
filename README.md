@@ -62,7 +62,7 @@ or
 ***Recommended
 
 	try{
-		let result = db.find()
+		let result = await db.find()
 		/*Your logic*/
 	}catch(err){
 		/*Error handle*/
