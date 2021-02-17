@@ -1,16 +1,34 @@
-### Features
+Extremely lightweight and simple local json database for personal / small / test projects. 
 
-- Extremely lightweight and simple local json database for personal/small/test projects.
-- Capable of find, insert, update, delete
-- **Targeting deep Object does not work. You need to manipulate the data manually and save it as whole.**
 
 # simple-node-jsondb
 
-## Installation
+# Installation
 `$ npm install simple-node-jsondb@latest`
 
-- Features
+# Features
+
+- <span style="color:lightgreen"> + Extremely lightweight </span>
+- <span style="color:lightgreen"> + Very simple to use </span>
+- <span style="color:lightgreen"> + Syntax similar to mongoose </span>
+- <span style="color:lightgreen"> + Capable of find, insert, update, delete </span>
+- <span style="color:red"> - Targeting deep Object does not work. You need to manipulate the data manually and save it as whole.</span>
+- <span style="color:red"> - Indexing not supported yet, thus not recommended for large scale production use. Use a proper DB for that. </span>
+
+# Things I would probably add (maybe / depends)
+
+- Capability to ***Push*** into array.
+- Capability to ***Pull*** from array.
+- Capability to ***Find*** Deep properties.
+- Indexing
+
+Not so simple anymore huh?
+
+# Table Of Contents
 - Installation
+- Features
+- Things I would probably add
+- Table Of Contents
 - API
     - Example Dataset
 - db.init([dbPath])
