@@ -70,10 +70,11 @@ Simply pass in the desired absolute path to change the directory.
 - Insert data into database.
 - Refer as "collection" for noSQL users, or "table" for users that is more fimilar with SQL.
 
-Params  | Required |  Type | Description
-------------- | -------------
-collection/table  | True |  String | Target collection/table
-data | True  | Object/Array  | Data to insert into collection/table. Can be either **Object** or **Array**.
+| Params  | Required |  Type | Description |
+| ---- | ---- | ---- | ---- |
+| collection/table  | True |  String | Target collection/table |
+| data | True  | Object/Array  | Data to insert into collection/table. Can be either **Object** or **Array**. |
+
 
 Return
 - None
@@ -155,10 +156,11 @@ By using Array
 # db.find([collection/table], [filter])
 - Find and retrieve data from database
 
-Params  | Required |  Type | Description
-------------- | -------------
-collection/table  | True |  String | Target collection/table
-filter | True | Object/Array  | Filter. Can be either **Object** or **Array**. ***Pass an empty Object to find all***
+| Params  | Required |  Type | Description |
+| ---- | ---- | ---- | ---- |
+| collection/table  | True |  String | Target collection/table |
+| filter | True | Object/Array  | Filter. Can be either **Object** or **Array**. ***Pass an empty Object to find all*** |
+
 
 Return
 - Array
@@ -231,11 +233,12 @@ Advanced search with filtering can be done by using ***Special Operators***.
 # db.update([collection/table], [filter], [newData])
 - Find and retrieve data from database
 
-Params | Required |  Type | Description
-------------- | -------------
-collection/table | True |  String | Target collection/table
-filter | True | Object/Array  | Filter. Can be either **Object** or **Array**.
-newData | True | Object/Array  | New data to overwrite. Can be either **Object** or **Array**.
+| Params | Required |  Type | Description |
+| ---- | ---- | ---- | ---- |
+| collection/table | True |  String | Target collection/table |
+| filter | True | Object/Array  | Filter. Can be either **Object** or **Array**. |
+| newData | True | Object/Array  | New data to overwrite. Can be either **Object** or **Array**. |
+
 
 Return
 - Array
@@ -289,11 +292,12 @@ Return
 # db.delete([collection/table], [filter], [confirm])
 - Find and retrieve data from database
 
-Params | Required |  Type | Description
-------------- | -------------
-collection/table | True |  String | Target collection/table
-filter | True | Object/Array  | Filter. Can be either **Object** or **Array**.
-confirm | False | Object/Array  | Only needed when no filter is specified to protect accidentialy deletion of all data. Set it ***True*** to confirm the action.
+| Params | Required |  Type | Description |
+| ---- | ---- | ---- | ---- |
+| collection/table | True |  String | Target collection/table |
+| filter | True | Object/Array  | Filter. Can be either **Object** or **Array**. |
+| confirm | False | Object/Array  | Only needed when no filter is specified to protect accidentialy deletion of all data. Set it ***True*** to confirm the action. |
+
 
 Return
 - None
