@@ -5,6 +5,7 @@ Extremely lightweight and simple local json database for personal / small / test
 
 # Installation
 `$ npm install simple-node-jsondb@latest`
+`const db = require('simple-node-jsondb')`
 
 # Features
 
