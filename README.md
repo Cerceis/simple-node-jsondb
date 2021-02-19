@@ -81,7 +81,7 @@ Simply pass in the desired absolute path to change the directory.
 	/*Recommend to use "path"*/
 	const path = require("path")
 	/* This will initialize the db in your root project folder */
-	const dbPath = path.join(__dirname,'./db') 
+	const dbPath = path.join(__dirname,'./db.json') 
 	db.init( dbPath )
 
 # db.insert([collection/table], [data])
